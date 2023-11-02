@@ -1,0 +1,5 @@
+{
+	"*": "pnpm run format:check",
+	"packages/ui/**/*.{ts,tsx}": "pnpm run lint --filter @mcsam/ui --",
+	"apps/web/**/*.{ts,tsx}": "pnpm run lint --filter @mcsam/web --"
+}

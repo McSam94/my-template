@@ -1,10 +1,10 @@
 // styles
-import "./styles.css";
+import './styles.css'
 
 // components
-export * from "./card";
-export * from "./button";
+export * from './card'
+export * from './button'
 
 // types
-export type { CardProps } from "./card";
-export type { ButtonProps } from "./button";
+export type { CardProps } from './card'
+export type { ButtonProps } from './button'
